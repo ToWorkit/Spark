@@ -2,4 +2,4 @@ reduceByKey
 	效率要更高一些，相当于中间做了一次combiner操作，具体还是要看业务逻辑(比如求平均值就不可以使用combiner)
 	
 groupByKey
-	效率相对第一些，但不会做combiner操作，比较原始
+	效率相对低一些，但不会做combiner操作，比较原始
